@@ -1,0 +1,24 @@
+Metadata-Version: 2.4
+Name: stats_tools
+Version: 0.1.0
+Summary: High-performance JAX-based group-comparison and regression tools
+Home-page: https://github.com/NikDrummond/stats_tools
+Author: Your Name
+Author-email: your.email@example.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pandas<2.0,>=1.3
+Requires-Dist: numpy<2.0,>=1.21
+Requires-Dist: jax<0.5,>=0.4
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0; extra == "dev"
+Requires-Dist: pytest-cov>=2.0; extra == "dev"
+Requires-Dist: flake8>=3.8; extra == "dev"
+Requires-Dist: mypy>=0.800; extra == "dev"
+
+# stats_tools
